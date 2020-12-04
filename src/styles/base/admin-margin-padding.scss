@@ -1,0 +1,61 @@
+// Margin
+@each $column, $i in $columns {
+  .m-#{$column} {
+    margin: $i + rem !important;
+  }
+}
+
+@each $column, $i in $columns {
+  .mt-#{$column} {
+    margin-top: $i + rem !important;
+  }
+}
+
+@each $column, $i in $columns {
+  .mb-#{$column} {
+    margin-bottom: $i + rem !important;
+  }
+}
+
+@each $column, $i in $columns {
+  .mr-#{$column} {
+    margin-right: $i + rem !important;
+  }
+}
+
+@each $column, $i in $columns {
+  .ml-#{$column} {
+    margin-left: $i + rem !important;
+  }
+}
+
+// Padding
+@each $column, $i in $columns {
+  .p-#{$column} {
+    padding: $i + rem !important;
+  }
+}
+
+@each $column, $i in $columns {
+  .pt-#{$column} {
+    padding-top: $i + rem !important;
+  }
+}
+
+@each $column, $i in $columns {
+  .pb-#{$column} {
+    padding-bottom: $i + rem !important;
+  }
+}
+
+@each $column, $i in $columns {
+  .pr-#{$column} {
+    padding-right: $i + rem !important;
+  }
+}
+
+@each $column, $i in $columns {
+  .pl-#{$column} {
+    padding-left: $i + rem !important;
+  }
+}

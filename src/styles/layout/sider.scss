@@ -1,0 +1,72 @@
+.admin-app-sider {
+  background-color: #87888b;
+  &-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 16px 0;
+    background-color: #606060;
+    background-color: #000c17;
+  }
+
+  &-menu {
+    background: #87888b !important;
+  }
+
+  &-profile {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 1px solid white;
+    width: 84%;
+    margin: 0 auto;
+    &_img {
+      width: 40px;
+      height: 40px;
+      display: block;
+      margin: 0;
+      cursor: pointer;
+      img {
+        width: 100%;
+        border-radius: 100%;
+      }
+    }
+    &_name {
+      color: #fff;
+    }
+
+    &_rol {
+      color: #fff;
+      text-transform: capitalize;
+    }
+  }
+}
+
+.admin-app-sider-collapsed {
+  flex: 0 0 20% !important;
+  max-width: 20% !important;
+  min-width: 20% !important;
+  width: 20% !important;
+}
+
+.ant-menu-dark.ant-menu-dark:not(.ant-menu-horizontal) .ant-menu-item-selected {
+  background-color: #ff3601;
+  border-color: transparent;
+}
+
+.ant-btn {
+  height: auto;
+}
+
+.ant-btn-primary {
+  background: transparent;
+  border-color: transparent;
+  &:hover {
+    background: transparent;
+    border-color: transparent;
+  }
+  &:focus {
+    background: transparent;
+    border-color: transparent;
+  }
+}
